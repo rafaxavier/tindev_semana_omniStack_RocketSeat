@@ -7,3 +7,8 @@ Projeto é dívidido em 3 partes:
 * tindev     -> É a versão mobile, feito com React-native. 
 
 Foi utilizado também para comunicação via protocolo webSocket entre as 3 partes a lib socket.io e socket.io-client.
+
+
+OBS: Para rodar a aplicação, deve executar o comando npm install na raiz de cada uma das 3 parte do projeto, depois de instalar as dependências deve se confirgurar o banco mongoDB no  backend/src/server.js inserindo string na função mongoose.connect('*');
+
+(: Agora para correr as aplicações execute nas raízes > npm start  
