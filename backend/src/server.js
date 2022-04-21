@@ -25,16 +25,9 @@ io.on('connect', socket =>{
     const {user} = socket.handshake.query;
     
     connectedUsers[ user ]= socket.id;
-
-
-    /* TESTES*/
-    // ouvindo msg enviada pelo front
-    // socket.on('hello', message=>{console.log(message)});
-    // emitindo msg para o back-end
-    // socket.emit('msg', {message:'oministack'});
 });
 
-mongoose.connect('mongodb+srv://cursoRocketSeat:rxn270109@meucluster.zzd96.mongodb.net/omnistack8?retryWrites=true&w=majority');
+mongoose.connect('*****************************');
 
 // middleware, interceptar req p/ chegar diferente no controller
 app.use((req, res, next)=>{
