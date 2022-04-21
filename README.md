@@ -12,3 +12,9 @@ Foi utilizado também para comunicação via protocolo webSocket entre as 3 part
 OBS: Para rodar a aplicação, deve executar o comando npm install na raiz de cada uma das 3 parte do projeto, depois de instalar as dependências deve se confirgurar o banco mongoDB no  backend/src/server.js inserindo string na função mongoose.connect('*');
 
 (: Agora para correr as aplicações execute nas raízes > npm start  
+
+<div align="center">
+  <a href="https://github.com/rafaxavier">
+  <img height="250em" src="https://www.sbr-technologies.com/wp-content/uploads/2021/06/mern.png"/>
+</div>
+  
